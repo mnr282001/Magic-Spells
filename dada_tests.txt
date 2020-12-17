@@ -1,0 +1,44 @@
+// this is a comment.
+
+// this is the format of a testcase:
+// function ; inputs ; outputs
+// inputs are comma separated, in the same order as function parameters
+
+// amax testcases
+// amax ; x, len ; expected return value
+amax ; 8 6 7 5 3 0 9 , 7 ; 6 // example testcase
+amax ; 8 6 7 5 3 0 -9 , 7 ; 6
+
+// asum testcases
+// asum ; x, len ; expected return value
+asum; 5 3 8 7, 4 ; 23
+
+
+// axpy testcases
+// axpy ; a, x, y, len ; expected y
+axpy; 2, 2 2 , 3 2 , 2 ; 7 6
+
+
+// copy testcases
+// copy ; x, y, len ; expected y
+copy ; 2 2 , 3 2, 2 ; 2 2
+
+
+// dot testcases
+// dot ; x, y, len ; expected return value
+dot ; 2 2 , 3 2 , 2 ; 10
+
+
+// norm2 testcases
+// norm2 ; x, len ; expected return value
+norm2 ; 2 2, 2 ; 2.82843
+
+
+// scale testcases
+// scale ; a, x, len ; expected x
+scale ; 2, 2 2, 2 ; 4 4
+
+
+// swap testcases
+// swap ; x, y, len ; expected x, expected y
+swap ; 2 2, 3 2, 2 ; 3 2, 2 2
